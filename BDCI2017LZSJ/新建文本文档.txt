@@ -1,0 +1,14 @@
+# 招聘数据9recruit.csv 提取特征
+    1. 企业发布招聘的个数，RECRUIT_CNT
+    2. 企业发布招聘平台的个数，RECRUIT_WZCODE_CNT
+    3. 企业发布的招聘数量的均值，RECRUIT_RECRNUM_AVG
+    4. 企业发布的招聘数量的和，RECRUIT_RECRNUM_SUM
+    5. 企业发布的招聘数量的最多的个数，RECRUIT_RECRNUM_MAX
+    6. 企业发布的招聘数量的最少的个数，RECRUIT_RECRNUM_MIN
+    7. 企业发布第一个招聘的日期，RECRUIT_FIRST_TIME
+    8. 企业发布最后一个招聘的日期，RECRUIT_END_TIME
+    
+    9. 企业发布最后一个招聘的日期和第一个招聘日期的差值，RECRUIT_END_FIRST_TIME_DIFF
+    10. 企业发布最后一个招聘的日期和注册日期的差值，RECRUIT_END_RGYEAR_TIME_DIFF
+    
+    

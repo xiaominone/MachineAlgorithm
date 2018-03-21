@@ -1,0 +1,45 @@
+# 投资数据4invest.csv(提取的特征)
+> 实验发现，所有被投资的企业在EID中都没有出现，所有随意每一个企业只有投资数据，没有被投资数据，而且不能构造新的训练数据
+1. 企业投资企业的数量, TZ_CNT
+2. 投资企业在省内的个数，TZ_INHOME_CNT
+3. 投资企业在省内的个数的比例，TZ_INHOME_RATE
+4. 投资企业在省外的个数，TZ_OUTHOME_CNT
+5. 投资企业在省内的个数的比例，TZ_OUTHOME_RATE
+6. 投资企业倒闭的个数，TZ_CLOSE_CNT
+7. 投资企业倒闭的比例，TZ_CLOSE_RATE
+8. 投资企业营业的个数，TZ_OPEN_CNT
+9. 投资企业营业的比例，TZ_OPEN_RATE
+10. 投资企业的平均持股比例, TZ_BTBL_AVG
+11. 第一个投资企业的时间，TZ_QY_FIRST_TIME
+12. 第一个投资企业的时间与本公司的注册时间的差值，TZ_QY_FIRST_RGYEAR_DIFF
+13. 最后一个投资企业的时间，TZ_QY_END_TIME
+14. 最后一个投资企业的时间与本公司的注册时间的差值，TZ_QY_END_RGYEAR_DIFF 
+    
+             
+                 
+x 15. 第一个投资企业的时间与本公司的第一个分公司注册时间的差值，TZ_QY_FIRST_BRANCH_FIRST_DIFF
+x 16. 第一个投资企业的时间与本公司的最后一个分公司注册时间的差值，TZ_QY_FIRST_BRANCH_END_DIFF
+
+17. 第一个投资企业倒闭的时间，TZ_FIRST_CLOSE_TIME
+18. 第一个投资企业倒闭的时间距离第一企业的投资时间，TZ_FIRST_CLOSE_TIME
+19. 第一个投资企业倒闭的时间距离本企业的注册时间，TZ_FIRST_CLOSE_RGYEAR_TIME
+20. 该企业是否有投资企业，IS_TZ_ACTIVE
+
+---------------------------------------------------------------------------------------------
++ 20. 平均每几个月投资一个企业，TZ_PRE_MONTH_CNT = TZ_CNT / TZ_QY_END_RGYEAR_DIFF
++ 21. 平均每几个月投资的企业倒闭，TZ_CLOSR_PRE_MONTH_CNT = TZ_CLOSE_CNR / TZ_QY_END_RGYEAR_DIFF
+
++ 25. 企业的投资数量占其所有投资平均值的比例, TZ_CNT_ALL_AVG_RATE
++ 23. 企业对应的HY大类的平均投资数量，TZ_HY_CNT_AVG
++ 24. 企业的投资数量占其对应投资大类HY平均值的比例, TZ_CNT_HY_AVG_RATE
++ 26. 企业的对应的行业大类HY的平均投资投资数量占其所有投资平均值的比例, TZ_HY_CNT_ALL_AVG_RATE
+
+
+
+投资企业的平均持股比例, TZ_BTBL_AVG
+
++ 25. 企业的投资持股比例占其所有投资平均值的比例, TZ_BTBL_ALL_AVG_RATE
++ 23. 企业对应的HY大类的持股比例的均值，TZ_HY_BTBL_AVG
++ 24. 企业的投资持股比例占其对应投资大类HY平均值的比例, TZ_BTBL_HY_AVG_RATE
++ 26. 企业的对应的行业大类HY的投资比例均值占其所有投资平均值的比例, TZ_HY_BTBL_ALL_AVG_RATE
+

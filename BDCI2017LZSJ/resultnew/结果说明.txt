@@ -1,0 +1,53 @@
+﻿submussion_12.csv  ???
+
+build-auc:0.844383 valid-auc:0.726015
+
+参数：
+#seed = np.random.randint(99999)
+seed = 71
+np.random.seed(seed)
+valid_size = 0.10
+LOOP = 3
+ESR = 25
+# XGB param
+nround = 1000
+#nround = 10
+
+param = {'max_depth':10, 
+         'eta':0.02,
+         'colsample_bytree':0.4,
+         'subsample':0.75,
+         'silent':1,
+         'nthread':27,
+         'eval_metric':'auc',
+         'objective':'binary:logistic',
+        }
+
+
+
+submussion_123.csv  ???
+build-auc:0.859751	valid-auc:0.731132
+参数：
+#seed = np.random.randint(99999)
+seed = 71
+np.random.seed(seed)
+valid_size = 0.10
+LOOP = 2
+ESR = 25
+# XGB param
+nround = 1000
+#nround = 10
+
+param = {'max_depth':10, 
+         'eta':0.02,
+         'colsample_bytree':0.4,
+         'subsample':0.75,
+         'silent':1,
+         'nthread':27,
+         'eval_metric':'auc',
+         'objective':'binary:logistic',
+        }
+
+
+
+
