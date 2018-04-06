@@ -2,7 +2,7 @@
 '''
 Created on Dec 17, 2017
 Adaboost is short for Adaptive Boosting
-@author: wangminmin
+@author: onexiaomin
 '''
 from numpy import *
 def loadSimpData():

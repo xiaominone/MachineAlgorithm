@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Dec 17  2017
-@author: wang
+@author: onexiaomin
 """
 
 from numpy import *

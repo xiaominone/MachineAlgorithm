@@ -1,8 +1,3 @@
-'''
-Created on 2016.11
-
-@author: Peter
-'''
 from numpy import *
 #载入一些实验数据  已经切割好的词向量 
 #postingList 定以了切割后的6个文本向量

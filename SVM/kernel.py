@@ -9,7 +9,7 @@
 
 没有测试数据
 
-@author: Rachel Zhang
+
 """
 
 import numpy as np

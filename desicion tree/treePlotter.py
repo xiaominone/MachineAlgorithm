@@ -1,7 +1,7 @@
 '''
 Created on  2016 10.16
 
-@author: ONEXAIOMIN
+@author:  onexiaomin
 '''
 import matplotlib.pyplot as plt
 
